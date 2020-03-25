@@ -1,12 +1,10 @@
 html {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
-table {
-  border: 1px solid #ccc;
-  border-collapse: collapse;
+tr {
+  border: none;
 }
-
 
 .eventgrey {
   background-color: #f2f2f2;
@@ -36,7 +34,11 @@ table {
   color: #51603f;
 }
 
-td th {
-  height: 100px;
+td {
+  height: 186px;
+  border: 1px solid #ccc;
+}
+
+th {
   border: 1px solid #ccc;
 }
